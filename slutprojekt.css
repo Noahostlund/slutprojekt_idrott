@@ -1,10 +1,16 @@
 .meny-bakgrund {
     width: 100%;
+    background: black;
 }
-
 nav {
     max-width: 1720px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr auto 1fr;
+}
+.vänster{
+    grid-column: 1;
+}
+.logo{
+    grid-column: 2;
 }
